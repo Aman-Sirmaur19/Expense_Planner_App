@@ -106,7 +106,8 @@ class _NewTransactionState extends State<NewTransaction> {
                 ),
               ),
               ElevatedButton(
-                child: Text('Add Transaction'),
+                child: Text('Add Transaction',
+                    style: TextStyle(color: Colors.white)),
                 style: ButtonStyle(
                   backgroundColor: MaterialStateProperty.all(
                     Theme.of(context).primaryColor,
